@@ -1,5 +1,10 @@
+import { useNavigate } from "react-router-dom";
 
 function Error() {
+    const navigate = useNavigate()
+    const onClick = () =>{
+        navigate('/login')
+    }
     return(
         <div>
             <div id="container">
@@ -13,7 +18,7 @@ function Error() {
                     </div>
                     <div class="shadow move"></div>
                     <div class="message"><h1 class="alert">Error!</h1><p>oh no, something went wrong.</p></div>
-                    <button class="button-box"><h1 class="red">try again</h1></button>
+                    <button class="button-box" onClick={onClick}><h1 class="red">try again</h1></button>
                 </div>
             </div>
         </div>

@@ -11,7 +11,7 @@ function Login() {
     }
     return(
         <div className="formContainer">
-            <div>
+            <div className="titulo">
                 <h1>Sign Up</h1>
             </div>
             <div className="body">
