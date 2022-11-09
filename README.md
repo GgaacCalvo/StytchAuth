@@ -6,9 +6,9 @@ Si no se valida via mail, tira error, sino permite el acceso.
 
 Para probarlo:
 
-Descargá el repo
-En la consola: 'npm install'
-En la consola: 'npm start'
+-Descargá el repo
+-En la consola: 'npm install'
+-En la consola: 'npm start'
 
 
 <p align="center">
