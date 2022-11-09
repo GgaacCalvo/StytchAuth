@@ -4,6 +4,13 @@ Implementacion de API Stytch para autenticar correo electronico.
 
 Si no se valida via mail, tira error, sino permite el acceso.
 
+Para probarlo:
+
+Descargá el repo
+En la consola: 'npm install'
+En la consola: 'npm start'
+
+
 <p align="center">
 <img  align="center" width="400px" height="300px" src="./client/src/assets/test.png" alt="test"/>
 <img align="center" width="400px" height="300px" src="./client/src/assets/error.png" alt="error"/>
